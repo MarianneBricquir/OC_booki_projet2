@@ -218,6 +218,76 @@ margin-bottom:10%;
    margin-left:15px;
 }
 
+/********************** "Activites" section on mobile**********************/
+#part2_activities
+{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1800px;
+    margin:0px;
+}
+
+#allTheActCards
+{
+   display:flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   width: 100%;
+   min-height: 1600px;
+
+}
+
+.cardAct
+{
+   width: 100%;
+   height: 180px;
+   background-color: white;
+   box-shadow: 5px 5px 10px#c2c2c2;
+   border-radius: 20px 20px 20px 20px;
+   margin-bottom:10%;
+}
+
+
+.Actx2
+{
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+
+}
+
+.imgAct
+{
+   display: flex;    
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 76%;
+   overflow: hidden;
+   border-radius: 20px 20px 0px 0px;
+}
+
+.imgAct img 
+{
+   width: 100%;
+   height: auto;
+}
+
+.contentAct
+{
+   display:flex;
+   flex-wrap: wrap;
+}
+
+.titreAct
+{
+   margin-top:2%;
+   margin-left:2%;
+   margin-right:2%;
+}
 
 }
 
