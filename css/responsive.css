@@ -78,6 +78,12 @@ footer
 
 /**************** MAIN ON MOBILE ****************/
 /********************** Section "Rechercher" on mobile**********************/
+#rechercher {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 3%;
+}
 #buttonText
 {
     display:none;
@@ -105,7 +111,8 @@ footer
     flex-direction: column-reverse;
     justify-content: space-between;
     margin:0px;
-    height: 2350px;
+    width: 100%;
+    height: 1850px;
 }
 
 .TitreHebPop
@@ -119,8 +126,9 @@ footer
     flex-direction: column;
     width: 100%;
     padding:0px;
-    height: 1800px;
-    margin-top:30px;
+    height: 1300px;
+    margin-top:20px;
+    margin-bottom:20px;
     background-color: #ffffff;
 
 }
@@ -149,8 +157,8 @@ footer
     justify-content: space-around;
     align-items: flex-start;
     height: 85%;
-    margin-left:15px;
-    margin-right:15px;
+    margin-left:3%;
+    margin-right:3%;
 }
 
 /* Images*/
@@ -170,6 +178,12 @@ footer
    width: auto;
    height: 200%;  
 }
+
+.verticale img {
+    width: 120%;
+    height: auto;
+}
+
 
 /* Content*/
 .contentPop
@@ -195,27 +209,27 @@ footer
 {
    display:flex;
    flex-direction: column;
-   justify-content: space-around;
    align-items: center;
-   margin-left:15px;
-   margin-right:15px;
+   margin-left: 3%;
+   margin-right: 3%;
+   width: 94%;
 }
 
 .cardHeb
 {
-width: 95%;
-height: 180px;
-background-color: white;
-border:solid 3px white;
-box-shadow: 0px 5px 5px 0px #c2c2c2;
-border-radius: 20px 20px 20px 20px;
-margin-top:3%;
-margin-bottom:10%;
+    width: 100%;
+    height: 180px;
+    background-color: white;
+    border:solid 3px white;
+    box-shadow: 0px 5px 5px 0px #c2c2c2;
+    border-radius: 20px 20px 20px 20px;
+
 }
 
 .LienHebPop
 {
-   margin-left:15px;
+    margin-left:3%;
+    margin-right:3%;
 }
 
 /********************** "Activites" section on mobile**********************/
@@ -224,7 +238,7 @@ margin-bottom:10%;
     display:flex;
     flex-direction: column;
     width: 100%;
-    height: 1800px;
+    height: 1320px;
     margin:0px;
 }
 
@@ -234,10 +248,10 @@ margin-bottom:10%;
    flex-direction: column;
    justify-content: flex-start;
    align-items: center;
-   min-height: 1600px;
-   margin-left: 5%;
-   margin-right: 5%;
-   width: 90%;
+   height: 1320px;
+   margin-left: 3%;
+   margin-right: 3%;
+   width: 94%;
 }
 
 .cardAct
@@ -247,7 +261,7 @@ margin-bottom:10%;
    background-color: white;
    box-shadow: 5px 5px 10px#c2c2c2;
    border-radius: 20px 20px 20px 20px;
-   margin-bottom:10%;
+   margin-top:20px;
 }
 
 
@@ -255,9 +269,17 @@ margin-bottom:10%;
 {
    display:flex;
    flex-direction: column;
+   justify-content: flex-start;
    align-items: center;
    width: 100%;
+   height: 400px;
 
+}
+
+.entier, .plus, .minus, .half
+{
+    width: 100%;
+    height: 180px;
 }
 
 .imgAct
@@ -353,6 +375,12 @@ margin-bottom:10%;
     {
        width: 30%;
     }
+
+    .verticale img {
+        width: 120%;
+        height: auto;
+    }
+    
 
 }
 
