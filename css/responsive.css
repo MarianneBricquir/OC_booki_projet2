@@ -384,7 +384,7 @@ footer
 
 }
 
-/* Mobile phone version : screen < 768 px*/
+/* Desktop version : screen > 768 px -- To hide the text search*/
 @media screen and (min-width: 767px)
 {
     #buttonIcon
