@@ -1,394 +1,356 @@
 /* Mobile phone version : screen < 768 px*/
-@media screen and (max-width: 767px)
-{
-/**************** HEADER ON MOBILE ****************/
-/* Flexbox class to align logo and navigation bar in the header. Here, direction = column */
-header
-{
-    display: flex ;
-    flex-direction : column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-} 
+@media screen and (max-width: 767px) {
 
-/*LOGO ON MOBILE*/
-/* Remove margins to align logo in the header */
-#logo
-{
-    align-self:center;
-    margin-top:5px;
-    margin-left:0px;
-    margin-right:0px;
-}
-/* NAVIGATION BAR ON MOBILE */
-/* Flexbox class to align navigation bar elements */
-.flex_nav
-{
-    display: flex ;
-    flex-direction : row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-left:0px;
-    margin-right:0px;
-}
-/* Flexbox class child of .flex_nav */
-.item
-{
-    width: 50%;
-    display:flex;
-    align-self: center;
-}
-/* Mobile style for each element of the navigation bar - a grey border-bottom */
-nav li 
-{
-    font-size: 18px;
-    border-bottom: 2px solid #F2F2F2;
-    border-top:0px;
-    padding : 15px;
-}
-/* Hover style of the link (a blue border-bottom)*/
-nav li:hover
-{
-    border-bottom: 2px solid #0065FC;
-    border-top:0px;
-    padding : 15px;
-}
-
-/**************** FOOTER ON MOBILE ****************/
-/*Footer on mobile*/
-footer 
-{
-    flex:0;
-    min-height: 340px;
-}
-
-#tousBlocsFooter
-{
-    width: 80%;
-    height: 320px;
-    margin-top:15px;
-    margin-left:15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-/**************** MAIN ON MOBILE ****************/
-/********************** Section "Rechercher" on mobile**********************/
-#rechercher {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    margin-left: 3%;
-}
-#buttonText
-{
-    display:none;
-}
-
-#buttonIcon
-{
-    cursor: pointer;
-    background-color: #0065FC ;
-    font-size: 18px;
-    color:white;
-    width: 40px;
-    height: 40px;
-    border: 2px solid #0065FC;
-    border-radius: 10px 10px 10px 10px;
-    padding: 8px;
-    margin-left:210px;
-    position:absolute;
-}
-
-/******************** "Part1. Heb Pop" section on mobile********************/
-.part1_hebPop
-{
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-between;
-    margin:0px;
-    width: 100%;
-    height: 1850px;
-}
-
-.TitreHebPop
-{
-    margin-left:15px;
-}
-
-#hebergements
-{
-    display:flex;
-    flex-direction: column;
-    width: 100%;
-    padding:0px;
-    height: 1300px;
-    margin-top:20px;
-    margin-bottom:20px;
-    background-color: #ffffff;
-
-}
-
-#populaires
-{
-    display:flex;
-    background-color: #F2F2F2;
-    width: 100%;
-    height: 550px;
-    border-radius: 0px 0px 0px 0px;
-    padding:0px;
-    margin:0px;
-}
-
-/*Les plus pop on mobile*/
-.titreCardPop
-{
-    margin-right:15px;
-}
-
-#allThePopCards
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
-    height: 85%;
-    margin-left:3%;
-    margin-right:3%;
-}
-
-/* Images*/
-.imgPop
-{
-   display: flex;    
-   align-items: center;
-   justify-content: center; 
-   max-width: 120px;
-   height: 100%;
-   overflow: hidden;
-   border-radius: 20px 0px 0px 20px;
-}
-
-.imgPop img 
-{
-   width: auto;
-   height: 200%;  
-}
-
-.verticale img {
-    width: 120%;
-    height: auto;
-}
-
-
-/* Content*/
-.contentPop
-{
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-   align-items: flex-start;
-   height: 95%;
-   margin-left: 3%;
-}
-
-.titreCardPop
-{
-   display: flex;
-   flex-direction:row;
-   justify-content: space-between;
-   align-items: center;
-}
-
-/*Hebergements on mobile*/
-#allTheHebCards
-{
-   display:flex;
-   flex-direction: column;
-   align-items: center;
-   margin-left: 3%;
-   margin-right: 3%;
-   width: 94%;
-}
-
-.cardHeb
-{
-    width: 100%;
-    height: 180px;
-    background-color: white;
-    border:solid 3px white;
-    box-shadow: 0px 5px 5px 0px #c2c2c2;
-    border-radius: 20px 20px 20px 20px;
-
-}
-
-.LienHebPop
-{
-    margin-left:3%;
-    margin-right:3%;
-}
-
-/********************** "Activites" section on mobile**********************/
-#part2_activities
-{
-    display:flex;
-    flex-direction: column;
-    width: 100%;
-    height: 1320px;
-    margin:0px;
-}
-
-#allTheActCards
-{
-   display:flex;
-   flex-direction: column;
-   justify-content: flex-start;
-   align-items: center;
-   height: 1320px;
-   margin-left: 3%;
-   margin-right: 3%;
-   width: 94%;
-}
-
-.cardAct
-{
-   width: 100%;
-   height: 180px;
-   background-color: white;
-   box-shadow: 5px 5px 10px#c2c2c2;
-   border-radius: 20px 20px 20px 20px;
-   margin-top:20px;
-}
-
-
-.Actx2
-{
-   display:flex;
-   flex-direction: column;
-   justify-content: flex-start;
-   align-items: center;
-   width: 100%;
-   height: 400px;
-
-}
-
-.entier, .plus, .minus, .half
-{
-    width: 100%;
-    height: 180px;
-}
-
-.imgAct
-{
-   display: flex;    
-   justify-content: center;
-   align-items: center;
-   width: 100%;
-   height: 76%;
-   overflow: hidden;
-   border-radius: 20px 20px 0px 0px;
-}
-
-.imgAct img 
-{
-   width: 100%;
-   height: auto;
-}
-
-.contentAct
-{
-   display:flex;
-   flex-wrap: wrap;
-}
-
-.titreAct
-{
-   margin-top:2%;
-   margin-left:2%;
-   margin-right:2%;
-}
-
-}
-
-
-/* Tablet version :  768 px < screen > 992 px */
-@media screen and (min-width: 768px) and (max-width: 992px)
-{
-    .part1_hebPop
-    {
-       display: flex;
-       flex-direction: column-reverse;
-       justify-content: space-between;
-       margin-left:15px;
-       margin-right:15px;
-    }
-
-    .TitreHebPop
-    {
-        margin-left:15px;
-    }
-
-    /*Div Hebergements on tabet*/
-    #hebergements
-    {
-        padding:0px;
+    /**************** HEADER ON MOBILE ****************/
+    /* Flexbox class to align logo and navigation bar in the header. Here, direction = column */
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width: 100%;
     }
 
-    #allTheHebCards
-    {
-        margin-left:15px;
-        margin-right:15px;
+    /*LOGO ON MOBILE*/
+    /* Remove margins to align logo in the header */
+    #logo {
+        align-self: center;
+        margin-top: 5px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
-    /*Div Hebergements on tabet*/
-    #populaires
-    {
-        padding:0px;
-        width: 100%;
-        height: 200px;
-        margin-bottom: 3%;
-        
-    }
-
-    #iconPop
-    {
-       margin-right:15px;
-    }
-
-    #allThePopCards
-    {
-        display:flex;
+    /* NAVIGATION BAR ON MOBILE */
+    /* Flexbox class to align navigation bar elements */
+    .flex_nav {
+        display: flex;
         flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    /* Flexbox class child of .flex_nav */
+    .item {
+        width: 50%;
+        display: flex;
+        align-self: center;
+    }
+
+    /* Mobile style for each element of the navigation bar - a grey border-bottom */
+    nav li {
+        font-size: 18px;
+        border-bottom: 2px solid #F2F2F2;
+        border-top: 0px;
+        padding: 15px;
+    }
+
+    /* Hover style of the link (a blue border-bottom)*/
+    nav li:hover {
+        border-bottom: 2px solid #0065FC;
+        border-top: 0px;
+        padding: 15px;
+    }
+
+    /**************** FOOTER ON MOBILE ****************/
+    /*Footer on mobile*/
+    footer {
+        flex: 0;
+        min-height: 340px;
+    }
+
+    #tousBlocsFooter {
+        width: 80%;
+        height: 320px;
+        margin-top: 15px;
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
-        flex-wrap: wrap;
-        margin-left:15px;
-       margin-right:15px;
     }
- 
-    .cardPop
-    {
-       width: 30%;
+
+    /**************** MAIN ON MOBILE ****************/
+    /********************** Section "Rechercher" on mobile**********************/
+    #rechercher {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-left: 3%;
+    }
+
+    #buttonText {
+        display: none;
+    }
+
+    #buttonIcon {
+        cursor: pointer;
+        background-color: #0065FC;
+        font-size: 18px;
+        color: white;
+        width: 40px;
+        height: 40px;
+        border: 2px solid #0065FC;
+        border-radius: 10px 10px 10px 10px;
+        padding: 8px;
+        margin-left: 210px;
+        position: absolute;
+    }
+
+    /******************** "Part1. Heb Pop" section on mobile********************/
+    .part1_hebPop {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        margin: 0px;
+        width: 100%;
+        height: 1850px;
+    }
+
+    .TitreHebPop {
+        margin-left: 15px;
+    }
+
+    #hebergements {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0px;
+        height: 1300px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: #ffffff;
+
+    }
+
+    #populaires {
+        display: flex;
+        background-color: #F2F2F2;
+        width: 100%;
+        height: 550px;
+        border-radius: 0px 0px 0px 0px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    /*Les plus pop on mobile*/
+    .titreCardPop {
+        margin-right: 15px;
+    }
+
+    #allThePopCards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        height: 85%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    /* Images*/
+    .imgPop {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 120px;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 20px 0px 0px 20px;
+    }
+
+    .imgPop img {
+        width: auto;
+        height: 200%;
     }
 
     .verticale img {
         width: 120%;
         height: auto;
     }
-    
+
+
+    /* Content*/
+    .contentPop {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: 95%;
+        margin-left: 3%;
+    }
+
+    .titreCardPop {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /*Hebergements on mobile*/
+    #allTheHebCards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 3%;
+        margin-right: 3%;
+        width: 94%;
+    }
+
+    .cardHeb {
+        width: 100%;
+        height: 180px;
+        background-color: white;
+        border: solid 3px white;
+        box-shadow: 0px 5px 5px 0px #c2c2c2;
+        border-radius: 20px 20px 20px 20px;
+
+    }
+
+    .LienHebPop {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    /********************** "Activites" section on mobile**********************/
+    #part2_activities {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 1320px;
+        margin: 0px;
+    }
+
+    #allTheActCards {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 1320px;
+        margin-left: 3%;
+        margin-right: 3%;
+        width: 94%;
+    }
+
+    .cardAct {
+        width: 100%;
+        height: 180px;
+        background-color: white;
+        box-shadow: 5px 5px 10px#c2c2c2;
+        border-radius: 20px 20px 20px 20px;
+        margin-top: 20px;
+    }
+
+
+    .Actx2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        height: 400px;
+
+    }
+
+    .entier, .plus, .minus, .half {
+        width: 100%;
+        height: 180px;
+    }
+
+    .imgAct {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 76%;
+        overflow: hidden;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    .imgAct img {
+        width: 100%;
+        height: auto;
+    }
+
+    .contentAct {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .titreAct {
+        margin-top: 2%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+}
+
+
+/* Tablet version :  768 px < screen > 992 px */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .part1_hebPop {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .TitreHebPop {
+        margin-left: 15px;
+    }
+
+    /*Div Hebergements on tabet*/
+    #hebergements {
+        padding: 0px;
+        width: 100%;
+    }
+
+    #allTheHebCards {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    /*Div Hebergements on tabet*/
+    #populaires {
+        padding: 0px;
+        width: 100%;
+        height: 200px;
+        margin-bottom: 3%;
+
+    }
+
+    #iconPop {
+        margin-right: 15px;
+    }
+
+    #allThePopCards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .cardPop {
+        width: 30%;
+    }
+
+    .verticale img {
+        width: 120%;
+        height: auto;
+    }
+
 
 }
 
 /* Desktop version : screen > 768 px -- To hide the text search*/
-@media screen and (min-width: 767px)
-{
-    #buttonIcon
-    {
-        display:none;
+@media screen and (min-width: 767px) {
+    #buttonIcon {
+        display: none;
     }
 }
