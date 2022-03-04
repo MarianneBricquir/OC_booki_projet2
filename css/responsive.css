@@ -279,6 +279,7 @@
     #afficherPlus {
         font-size: 18px;
         margin-top: 25px;
+        margin-left:15px;
     }
 
     /********************** "Activites" section on mobile**********************/
@@ -292,6 +293,7 @@
 
     #TitreActivites {
         margin-bottom:5px;
+        margin-left:15px;
     }
 
     #allTheActCards {
