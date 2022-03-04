@@ -240,12 +240,13 @@ form {
   margin-right: 15px;
 }
 
-/*Tests de hover sur les filtres*/
-
+/*Hover on filters*/
 .flexFiltres:hover .iconFiltre {
   cursor: pointer;
-  color: #ffffff;
+  color:#DEEBFF;
   background-color: #0065FC;
+  border: 1px solid #0065FC;
+  border-radius: 40px 40px 40px 40px;
 }
 
 .flexFiltres:hover .TexteFiltre {
