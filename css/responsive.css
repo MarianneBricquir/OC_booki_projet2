@@ -11,6 +11,26 @@
         width: 100%;
     }
 
+    /* Titles and paragraphs*/
+    h1 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    h3 {
+        font-size: 16px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+
+    p {
+        font-size: 16px;
+        margin: 0px;
+    }
+
     /*LOGO ON MOBILE*/
     /* Remove margins to align logo in the header */
     #logo {
@@ -74,11 +94,21 @@
 
     /**************** MAIN ON MOBILE ****************/
     /********************** Section "Rechercher" on mobile**********************/
-    #rechercher {
+    .rechercher {
         display: flex;
         flex-direction: column;
         width: 90%;
-        margin-left: 3%;
+        margin-top:-15px;
+    }
+
+    #searchbar {
+        width:80%;
+        height: 50px;
+    }
+
+    #iconLocation {
+        width: 50px;
+        height: 50px;
     }
 
     #buttonText {
@@ -90,12 +120,12 @@
         background-color: #0065FC;
         font-size: 18px;
         color: white;
-        width: 40px;
-        height: 40px;
+        width: 50px;
+        height: 50px;
         border: 2px solid #0065FC;
-        border-radius: 10px 10px 10px 10px;
+        border-radius: 15px 15px 15px 15px;
         padding: 8px;
-        margin-left: 210px;
+        margin-left: 290px;
         position: absolute;
     }
 
