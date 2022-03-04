@@ -240,6 +240,20 @@ form {
   margin-right: 15px;
 }
 
+/*Tests de hover sur les filtres*/
+
+.flexFiltres:hover .iconFiltre {
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #0065FC;
+}
+
+.flexFiltres:hover .TexteFiltre {
+  cursor: pointer;
+  color: #0065FC;
+}
+
+
 .LienFiltre {
   display: flex;
   flex-direction: row;
@@ -253,10 +267,6 @@ form {
   margin-bottom:10px;
 }
 
-.LienFiltre:hover {
-  cursor: pointer;
-  color: #0065FC;
-}
 
 .iconFiltre {
   display: flex;
@@ -274,10 +284,6 @@ form {
   z-index: 2;
 }
 
-.iconFiltre:hover {
-  background-color: #0065FC;
-  color: #ffffff;
-}
 
 .cadreTextFiltre {
   display: flex;
@@ -285,7 +291,7 @@ form {
   align-items: center;
   height: 35px;
   margin-left:-16px;
-  padding: 2px;
+  padding: 1px;
   border: 2px solid #F2F2F2;
   border-radius: 0 30px 30px 0;
   border-left: none;
@@ -294,8 +300,8 @@ form {
 }
 
 .TexteFiltre {
-  margin-left:20px;
-  margin-right:15px;
+  margin-left:25px;
+  margin-right:10px;
 }
 
 /*Information div*/
@@ -420,6 +426,7 @@ form {
 /*Content*/
 .contentHeb {
   margin-left: 2%;
+  height: 42%;
 }
 
 
@@ -576,7 +583,6 @@ form {
 .half {
   width: 100%;
   height: 220px;
-  ;
   background-color: white;
   box-shadow: 5px 5px 10px#c2c2c2;
   border-radius: 20px 20px 20px 20px;
@@ -644,6 +650,7 @@ form {
 .contentAct {
   display: flex;
   flex-wrap: wrap;
+  height: 50px;
 }
 
 .titreAct {
